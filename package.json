@@ -1,0 +1,45 @@
+{
+  "name": "slidev-starter",
+  "description": "Slidev starter fork from Penguin theme",
+  "author": "HieuBQ <hieubq90.space>",
+  "keywords": [
+    "slidev-starter",
+    "slidev",
+    "slidev-penguin"
+  ],
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "shiki",
+    "default": {
+      "aspectRatio": "16/9",
+      "fonts": {
+        "sans": "Inter",
+        "title": "Paytone One",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "screenshot": "slidev export --format png"
+  },
+  "dependencies": {
+    "@alvarosabu/ui": "^2.18.1",
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@slidev/types": "^0.37.1",
+    "prism-theme-vars": "^0.2.4",
+    "vite-svg-loader": "^3.6.0"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.19",
+    "@iconify-json/simple-icons": "^1.1.37",
+    "eslint": "^8.29.0",
+    "playwright-chromium": "^1.28.1",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1"
+  }
+}

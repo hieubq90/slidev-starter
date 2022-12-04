@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Sigmar One';
+  font-style: regular;
+  font-weight: bold;
+  font-display: swap;
+  src: local('Sigmar One'), url('/fonts/SigmarOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Paytone One';
+  font-style: regular;
+  font-weight: bold;
+  font-display: swap;
+  src: local('Paytone One'), url('/fonts/PaytoneOne-Regular.ttf') format('truetype');
+}
